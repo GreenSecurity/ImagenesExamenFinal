@@ -252,6 +252,7 @@
 	font-weight: 400;
   }
   .line-1 {
+	url(images/line-1.svg);
 	height: 4px;
 	margin-left: -0.42px;
 	margin-top: -1px;
