@@ -234,7 +234,7 @@
 	width: 273px;
   }
   :root {
-	--coral-tree: rgba(170, 102, 102, 1);
+	--coral-tree: #aa6666;
   }
   .footer {
 	align-items: flex-start;
@@ -296,10 +296,10 @@
 	box-sizing: border-box;
 	display: inline-block;
 	border: 1px solid black;
-	border-radius: 5px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
+	border-radius: 1px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
 	font-weight: bold;
 	text-align: center;
 	user-select: none;
@@ -307,12 +307,12 @@
   
   /* Estilo del boton cuando se pasa el mouse por encima*/
   label:hover{
-	background: grey;
+	background: #aa6666;
   }
   
   /* Estilo del boton cuando el menú está expandido*/
   input:checked ~ label {
-	background: lightgrey; 
+	background: #aa6666; 
   }
   
   ul{
@@ -325,11 +325,11 @@
   
   li {
 	display: block;
-	background: lightgrey;
-	margin: 0;
+	background: rgb(236, 190, 121);
+	margin: 10;
 	padding: 10px;
 	list-style: none;
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid #aa6666;
   }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
